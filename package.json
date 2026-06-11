@@ -4,23 +4,19 @@
     "type": "module",
     "author": "",
     "license": "Unlicense",
-    "description": "A Rollup+TypeScript template for a project based on the slicer scripting API.",
+    "description": "A Rolldown+TypeScript template for a project based on the slicer scripting API.",
     "scripts": {
-        "build": "rollup  --config rollup.config.ts --configPlugin @rollup/plugin-typescript",
+        "build": "rolldown -c",
         "format": "prettier . --write"
     },
     "dependencies": {
-        "@run-slicer/script": "^0.8.1"
+        "@run-slicer/script": "^0.15.0"
     },
     "devDependencies": {
-        "@rollup/plugin-node-resolve": "^15.2.3",
-        "@rollup/plugin-replace": "^5.0.7",
-        "@rollup/plugin-typescript": "^11.1.6",
-        "@types/node": "^22.5.4",
-        "prettier": "^3.3.3",
-        "rollup": "^4.21.3",
-        "tslib": "^2.7.0",
-        "typescript": "^5.6.2"
+        "@types/node": "^25.9.2",
+        "prettier": "^3.8.4",
+        "rolldown": "^1.1.0",
+        "typescript": "^6.0.3"
     },
-    "packageManager": "pnpm@9.10.0+sha512.73a29afa36a0d092ece5271de5177ecbf8318d454ecd701343131b8ebc0c1a91c487da46ab77c8e596d6acf1461e3594ced4becedf8921b074fbd8653ed7051c"
+    "packageManager": "pnpm@11.5.3+sha512.7ac1c919341c213a34dc0d02afb7143c5c26ac26ee8c4782deea821b8ac64d2134a081fd8941dae6e29bbb48f58dfc2b7fbceeccc07cb2f09d219d342a4969ed"
 }

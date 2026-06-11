@@ -1,3 +1,3 @@
 # script-template
 
-A Rollup+TypeScript template for a project based on the slicer scripting API.
+A Rolldown+TypeScript template for a project based on the slicer scripting API.
